@@ -6,11 +6,11 @@ Certainly, I'll explain the code and provide an overview of the Snake game.
 
 # 1. Import necessary libraries:
 
-   "python
+   ```python
    import pygame
    import random
    import sys
-   "
+   ```
 
    - `pygame`: Pygame is a Python library for creating 2D games.
    - `random`: Used for generating random numbers.
@@ -18,13 +18,13 @@ Certainly, I'll explain the code and provide an overview of the Snake game.
 
 # 2. Define Constants:
 
-   "python
+   ```python
    WIDTH, HEIGHT = 800, 600
    WHITE = (255, 255, 255)
    BLUE = (0, 0, 255)
    SNAKE_SIZE = 20
    SNAKE_SPEED = 10
-   "
+   ```
 
    - `WIDTH` and `HEIGHT` set the dimensions of the game window.
    - `WHITE` and `BLUE` define color constants.
